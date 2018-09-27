@@ -1,5 +1,37 @@
-# command-line-shell-scripts-lab
-Bash - Tame your Terminal and play with basic shell scripts
+# Command line - shell-scripts - lab
+
+Introduction to bash and tame your Terminal and play with basic shell scripts
+
+## Terror of Terminal (it's ok we're here to help)
+
+<img src="static/bash-terror.png" />
+
+## Start by essential shortcut! 
+
+<img src="static/essential-shortcut.png" />
+
+Disclaimer: some of commands can be different depend on the OS or Bash
+
+### Configure your Terminal 
+
+- Switch to infinite history! 
+
+```
+# In your bashrc
+# Enable infinite history
+export HISTSIZE=
+export HISTFILESIZE=
+```
+
+- Recall your commands!
+
+|-----------------------------|---------------------------------------------|
+|<kbd>CTRL</kbd>+<kbd>p</kbd> | Recall the previous command in the history  |
+|-----------------------------|---------------------------------------------|
+|<kbd>CTRL</kbd>+<kbd>n</kbd> | Recall the next command in the history      |
+|-----------------------------|---------------------------------------------|
+|<kbd>CTRL</kbd>+<kbd>r</kbd> | Do a search in your history                 |
+|-----------------------------|---------------------------------------------|
 
 ############## todo
 
