@@ -7,6 +7,8 @@ basically can use the content of this prez, please be free to take screenshots, 
 please thanks YRO somewhere too :) 
 https://docs.google.com/presentation/d/1OoUyUwSyq88FlMfaWxY2eY84ItxmvH26ZtAh2kELMoQ/edit#slide=id.g343db3d721_3_1000
 
+good luck mate :)
+
 ##### use the command line
 
 #### globing
