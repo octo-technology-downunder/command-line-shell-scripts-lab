@@ -372,5 +372,39 @@ tldr sed
 man sed
 ``` 
 
+# Challenges 
+
+Let's start some hands-on
+
+## 1. Bash - Find the biggies!
+
+Create a shell one-liner that lists the top 10 of the files bigger than 1G under the /usr folder with at least the full path name and the file size.
+
+*Bonus: if file size is displayed in human readable format (2.4G, 54k, 12M...)*
+
+*Helps*:
+- use `find` and look for options 
+- use `-exec` `find` option to display details
+- for mac user use `gsort` instead of `sort` 
+    - install command: `brew install coreutils`
+
+## 2. Bash - Make some room
+
+Create a shell one-liner that display files older than 1 month in the current folder and compresses them silently with tar.
+
+*Bonus: if compression is done in parallel and if bigger files are compressed first.*
+
+*Helps*: 
+- use `-mtime` option
+- use `xargs` to get the output
+
+## 3. Script - Find a movie to watch with your partner
+Write a shell script that display the list of comedy movies that were released between 4 and 3 months ago and that have more than 8 of average score.
+
+*Info:* 
+- Documentation URL: `https://www.themoviedb.org/documentation/api/discover`
+- API Key: `eecc946ec5ea05d0f35c9f842e8142a2`
+- Example API Call: `https://api.themoviedb.org/3/discover/movie?primary_release_date.gte=2014-09-15&primary_release_date.lte=2014-10-22&api_key=eecc946ec5ea05d0f35c9f842e8142a2`
+
 # Special thanks to Yann Rouillard
 For inspiration for this tutorial (Ok it's more than inspiration...)
