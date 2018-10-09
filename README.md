@@ -1,5 +1,7 @@
 # Command line - shell-scripts - lab
 
+This lab is part of the [foundations trainings](https://github.com/octo-technology-downunder/octo-au-foundations) in place at [OCTO Technology Australia](http://careers.octo.com.au/).
+
 Introduction to bash and tame your Terminal and play with basic shell scripts
 
 ## Terror of Terminal (it's ok we're here to help)
